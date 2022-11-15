@@ -1,0 +1,14 @@
+name: harvest-dbs-apis
+channels:
+  - defaults
+dependencies:
+  - python=3.6
+  - jupyter
+  - graphviz
+  - alembic
+  - pandas
+  - pip
+  - pip:
+    - bonobo 
+    - mongo 
+    - postgres
